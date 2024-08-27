@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>소유라 생일축하해 🍰🎁🎉</h1>
+    <img src="{{ url_for('static', filename='cake.png') }}" alt="Cake" class="cake-image">
+    <p>너의 가장 친한 친구 채윤이가</p>
+    <a href="/about">About</a>
+    <a href="/letter" class="text-link">Letter</a> <!-- 텍스트 링크 추가 -->
+</body>
+</html>
+
